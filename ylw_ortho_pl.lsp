@@ -1,5 +1,5 @@
 ;;; ------------------------------------------------------------
-;;; Command: YP
+;;; Command: YPL
 ;;; 功能：
 ;;;   ① 由 P1、P2 创建第一条正交 polyline（宽 0.6）
 ;;;   ② 从 P2O 出发，再创建第二条 polyline（长度 4.48，宽 2，颜色 RGB:255,255,0）
@@ -22,7 +22,7 @@
         ((> x 0.0)  1.0)
         (t          1.0)))
 
-(defun c:YP ( / *error* oldEcho oldOrtho oldCol
+(defun c:YPL ( / *error* oldEcho oldOrtho oldCol
                 p1 p2 p2o dx dy z
                 p3 p4 dx2 dy2 dir
                 len2 pEnd)
