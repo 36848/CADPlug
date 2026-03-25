@@ -97,10 +97,13 @@
     pEnd
     "")
 
+
+
   ;; 恢复环境
   (setvar 'CECOLOR   oldCol)
   (setvar 'ORTHOMODE oldOrtho)
   (setvar 'CMDECHO   oldEcho)
+  (setvar 'PLINEWID 0)
 
   (princ "\nFirst line: P1 → P2O has been created.Second line: starting from P2O, with a fixed length of 4.48, direction based on P3 → P4.")
   (princ)
