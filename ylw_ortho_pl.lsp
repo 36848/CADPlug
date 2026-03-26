@@ -58,6 +58,7 @@
 
   ;; 第一条线（示例使用 ACI=50）
   (setvar 'ORTHOMODE 0)
+  (setvar 'CELTYPE "BYLAYER")
   (setvar 'CECOLOR "RGB:255,255,0")
   (command
     "_.PLINE" p1
@@ -90,6 +91,7 @@
 
   ;; 第二条线颜色 = RGB(255,255,0)
   (setvar 'CECOLOR "RGB:255,255,0")
+  (setvar 'CELTYPE "BYLAYER")
 
   (command
     "_.PLINE" p2o
